@@ -1,0 +1,430 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 10px 20px;
+}
+.three {
+  padding-bottom: px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.four {
+  display: block;
+  float: right;
+  background-color: blue;
+  margin: 10px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+.five {
+  float: right;
+  margin: 10px;
+  font-size: 13px;
+  display: block;
+  background-color: pink;
+  border-radius: 4px;
+}
+.menu {
+  padding-top: 40px;
+}
+search {
+  padding: 10%;
+}
+.one {
+  font-size: 10px;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 549px;
+  right: 9px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.ticket {
+  background-color: #2410d8;
+  color: white;
+  float: right;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.topnav a.line-up {
+  background-color: pink;
+  color: white;
+  float: right;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 13px;
+}
+.festival {
+  position: absolute;
+  top: 25px;
+  left: 600px;
+  font-size: 30px;
+  font-family: source serif pro;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  padding: 5px;
+  display: inline;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  margin: 50px 10px 50px 150px;
+}
+.bottom {
+  position: absolute;
+  bottom: -570px;
+  left: 220px;
+  color: white;
+}
+.right {
+  position: absolute;
+  bottom: -570px;
+  left: 465px;
+  color: white;
+}
+.left {
+  position: absolute;
+  bottom: -570px;
+  left: 700px;
+  color: white;
+}
+.top {
+  position: absolute;
+  bottom: -570px;
+  left: 950px;
+  color: white;
+}
+.header {
+  text-align: center;
+  position: absolute;
+  bottom: -820px;
+  left: 578px;
+  font-size: 30px;
+}
+.table1 {
+  position: absolute;
+  bottom: -830px;
+  left: 228px;
+  font-size: 40px;
+}
+.table2 {
+  position: absolute;
+  bottom: -840px;
+  left: 260px;
+  font-size: 8px;
+}
+.friday {
+  padding: 10px;
+  margin: 400px;
+  background-color: white;
+  position: absolute;
+  bottom: -1765px;
+  left: 150px;
+  margin-left: 150px;
+  font-size: 10px;
+  display: block;
+}
+.friday li {
+  font-size: 10px;
+  box-sizing: border-box;
+  display: block;
+}
+.friday1 {
+  padding: 10px;
+  margin: 400px;
+  position: absolute;
+  bottom: -1765px;
+  left: 150px;
+  display: table;
+  background-color: white;
+  font-size: 10px;
+  display: block;
+}
+.friday2 {
+  padding: 10px;
+  padding-bottom: 33px;
+  margin: 400px;
+  background-color: white;
+  position: absolute;
+  bottom: -1765px;
+  left: 150px;
+  display: table;
+  margin-left: 650px;
+  margin-bottom: 400px;
+  margin-right: initial;
+  right: 10pxpx;
+  font-size: 10px;
+  display: block;
+}
+li {
+  display: table;
+}
+.smallie {
+  font-size: 8px;
+  text-align: center;
+  padding: none;
+}
+.biggie {
+  text-align: center;
+}
+.artists {
+  background-color: #2410d8;
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 570px;
+  display: block;
+  bottom: -1450px;
+  border-radius: 4px;
+  padding: 8px 30px;
+  font-size: 11px;
+}
+.double {
+  position: absolute;
+  left: 50px;
+  bottom: -1750px;
+  line-height: 50px;
+  text-align: center;
+}
+.double p {
+  padding-right: 400px;
+  padding-left: 400px;
+  font-size: 13px;
+}
+.discount {
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2550px;
+  right: 700px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.deals {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount1 {
+  background-color: white;
+  padding: 24px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2550px;
+  right: 390px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.guess {
+  background-color: white;
+}
+.discount2 {
+  background-color: white;
+  padding: 49px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2550px;
+  left: 70px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.park {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount3 {
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2955px;
+  right: 672px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.ticket {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount4 {
+  background-color: white;
+  padding: 37px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2953px;
+  right: 394px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.holi {
+  object-fit: cover;
+  opacity: 0.4;
+}
+.house {
+}
+.contact {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount5 {
+  background-color: white;
+  padding: 37px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -2955px;
+  left: 72px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 400px;
+}
+.direction {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.News {
+  position: absolute;
+  left: 500px;
+  bottom: -2850px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 100;
+}
+.social {
+  position: absolute;
+  left: 400px;
+  bottom: -2900px;
+  line-height: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 8px;
+  color: grey;
+}
+p {
+  color: grey;
+  font-size: 12px;
+  line-height: 25px;
+}
+h1 {
+  font-size: 15px;
+  line-height: 20px;
+}
+.read {
+  background-color: darkblue;
+  border-color: darkblue;
+  color: white;
+}
+.pic1 {
+  position: absolute;
+  bottom: -3220px;
+  left: -180px;
+}
+.div1 {
+  position: absolute;
+  margin: 170px 950px 500px 80px;
+}
+.pic2 {
+  position: absolute;
+  bottom: -3280px;
+  left: 350px;
+}
+.div2 {
+  position: absolute;
+  margin: 170px 400px 500px 600px;
+}
+.pic3 {
+  position: absolute;
+  bottom: -3280px;
+  left: 880px;
+}
+.div3 {
+  position: absolute;
+  margin: 170px -150px 500px 1220px;
+}
+.prettier {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  position: absolute;
+  bottom: -3950px;
+  left: 140px;
+}
+.blue {
+  position: absolute;
+  bottom: -4090px;
+  left: 490px;
+}
+.lorem {
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+}
+.outline {
+  font-size: 50px;
+  line-height: 70px;
+  font-family: serif;
+}
+.inline {
+  font-size: 13px;
+}
