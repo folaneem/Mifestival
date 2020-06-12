@@ -31,6 +31,7 @@ li {
 .menu {
   padding-top: 40px;
 }
+
 search {
   padding: 10%;
 }
@@ -41,11 +42,35 @@ search {
   position: relative;
   top: 0;
   left: 0;
+  width: 1280px;
+}
+.Ritmo h3 {
+  font-size: 80px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+}
+.play {
+  position: absolute;
+  left: 280px;
+  top: 160px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 15px;
 }
 .image2 {
   position: absolute;
-  top: 549px;
-  right: 9px;
+  top: 170px;
+  right: 50px;
+  object-fit: cover;
+  width: 1000px;
+  height: 600px;
+}
+.Ritmo {
+  font-size: 40px;
+  position: absolute;
+  top: 220px;
+  color: white;
+  left: 150px;
 }
 
 .topnav {
@@ -315,8 +340,7 @@ li {
   object-fit: cover;
   opacity: 0.4;
 }
-.house {
-}
+
 .contact {
   background-color: darkblue;
   color: white;
@@ -377,29 +401,36 @@ h1 {
 .pic1 {
   position: absolute;
   bottom: -3220px;
-  left: -180px;
+  left: -170px;
 }
 .div1 {
   position: absolute;
-  margin: 170px 950px 500px 80px;
+  left: 90px;
+  top: 3650px;
+  width: 250px;
 }
 .pic2 {
   position: absolute;
   bottom: -3280px;
   left: 350px;
 }
+
 .div2 {
   position: absolute;
-  margin: 170px 400px 500px 600px;
+  left: 600px;
+  top: 3600px;
+  width: 250px;
 }
 .pic3 {
   position: absolute;
-  bottom: -3280px;
-  left: 880px;
+  bottom: -3250px;
+  left: 870px;
 }
 .div3 {
   position: absolute;
-  margin: 170px -150px 500px 1220px;
+  left: 1200px;
+  bottom: -3180px;
+  width: 250px;
 }
 .prettier {
   display: block;
@@ -427,4 +458,68 @@ h1 {
 }
 .inline {
   font-size: 13px;
+}
+.readme {
+  position: absolute;
+  bottom: -3800px;
+  left: 343px;
+  background-color: #2410d8;
+  color: white;
+  padding: 10px;
+  border-color: blue;
+}
+.spectra {
+  position: absolute;
+  bottom: -4300px;
+  left: 290px;
+}
+.spectra1 {
+  margin-right: 150px;
+}
+.spectra2 {
+  margin-right: 150px;
+}
+.spectra3 {
+  margin-right: 150px;
+}
+.spectra4 {
+  margin-right: 150px;
+}
+.below {
+  color: white;
+  position: absolute;
+  bottom: -4550px;
+  background-color: black;
+}
+.last {
+  left: 20px;
+  position: absolute;
+  line-height: 1em;
+}
+.list {
+  left: 300px;
+  color: grey;
+  position: absolute;
+  line-height: 2em;
+}
+.color {
+  margin-left: 1059px;
+  margin-bottom: -90px;
+  border-radius: 8px;
+}
+.insta {
+  margin-left: 1130px;
+  margin-bottom: 50px;
+}
+.ferris {
+  margin-left: 850px;
+  margin-bottom: -154px;
+  border-radius: 8px;
+}
+
+.balloon {
+  margin-left: 640px;
+  display: inline;
+  margin-bottom: -171px;
+  border-radius: 8px;
 }
