@@ -45,24 +45,24 @@ body {
 }
 .topnav a.time {
   position: absolute;
-  bottom: 456.6px;
-  left: 699.6px;
+  bottom: 408px;
+  left: 672.7px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 9, 148);
 }
 .topnav a.time1 {
   position: absolute;
-  bottom: 456.6px;
-  left: 833.3px;
+  bottom: 408px;
+  left: 812.4px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(240, 86, 30);
 }
 .topnav a.time2 {
   position: absolute;
-  bottom: 456.6px;
-  left: 965px;
+  bottom: 408px;
+  left: 949px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 204, 172);
