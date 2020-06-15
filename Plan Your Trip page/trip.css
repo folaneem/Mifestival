@@ -1,8 +1,13 @@
 body {
-  background-color: blue;
+  background-color: lightseagreen;
 }
 .topnav {
   overflow: hidden;
+  background-color: white;
+  width: 101%;
+  margin-left: -7px;
+  height: 70px;
+  margin-top: -10px;
 }
 
 /* Style the links inside the navigation bar */
@@ -45,43 +50,341 @@ body {
 }
 .topnav a.time {
   position: absolute;
-  bottom: 408px;
-  left: 672.7px;
+  bottom: 481px;
+  left: 730.7px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 9, 148);
 }
 .topnav a.time1 {
   position: absolute;
-  bottom: 408px;
-  left: 812.4px;
+  bottom: 481px;
+  left: 870.4px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(240, 86, 30);
 }
 .topnav a.time2 {
   position: absolute;
-  bottom: 408px;
-  left: 949px;
+  bottom: 481px;
+  left: 1007px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 204, 172);
 }
 .fun {
-  bottom: 450.6px;
+  bottom: 480px;
   position: absolute;
-  left: 530px;
+  left: 560px;
   font-size: 13px;
   color: white;
 }
 .line {
   position: absolute;
-  top: 149.4px;
-  left: 200px;
-  width: 70%;
+  top: 125px;
+  left: 130px;
+  width: 80%;
   height: 500px;
   box-shadow: 0.001px 5px white;
 }
 body {
   font-family: Arial;
+}
+.update {
+  position: absolute;
+  left: 480px;
+  top: 300px;
+  line-height: 10px;
+}
+.update h1 {
+  font-size: 60px;
+  font-family: serif;
+}
+.update p {
+  position: absolute;
+  left: 100px;
+}
+.second {
+  background-color: white;
+  width: 81.3%;
+  margin-top: 600px;
+  height: 1200px;
+  margin-left: 120px;
+}
+.second p {
+  color: lightgray;
+}
+.no {
+  bottom: -100px;
+  position: absolute;
+  left: 570px;
+}
+.plan {
+  bottom: -160px;
+  position: absolute;
+  left: 460px;
+}
+.lorem {
+  color: black;
+  bottom: -250px;
+  position: absolute;
+  left: 400px;
+  font-size: 13px;
+  line-height: 2em;
+  text-align: center;
+}
+.discount {
+  background-color: white;
+  padding: 41px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1000px;
+  right: 700px;
+  display: table;
+  margin-left: 700px;
+}
+.deals {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount1 {
+  background-color: white;
+  padding: 24px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1000px;
+  right: 390px;
+  display: table;
+  margin-left: 700px;
+  margin-bottom: 300px;
+  border: solid rgb(64, 64, 240) 1px;
+}
+.guess {
+  background-color: white;
+}
+.discount2 {
+  background-color: white;
+  padding: 55px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1000px;
+  left: 70px;
+  display: table;
+  margin-left: 700px;
+}
+.park {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount3 {
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1400px;
+  right: 665px;
+  display: table;
+  margin-left: 700px;
+}
+.direction {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount4 {
+  background-color: white;
+  padding: 37px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1400px;
+  right: 394px;
+  display: table;
+  margin-left: 700px;
+}
+.ticket {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.contact {
+  background-color: darkblue;
+  color: white;
+  border-color: darkblue;
+}
+.discount5 {
+  background-color: white;
+  padding: 10px 10px 50px 10px;
+  margin: 300px 300px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  bottom: -1400px;
+  left: 72px;
+  display: table;
+  margin-left: 700px;
+}
+.third {
+  position: absolute;
+  bottom: -1700px;
+  background-color: white;
+  width: 100%;
+  height: 450px;
+  margin-left: -128px;
+}
+.join {
+  position: absolute;
+  left: 450px;
+  bottom: 155px;
+  font-size: 70px;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1em;
+  color: rgb(240, 240, 4);
+}
+.welcome {
+  position: absolute;
+  left: 480px;
+  bottom: 160px;
+}
+
+.button {
+  position: absolute;
+  bottom: 140px;
+  left: 500px;
+  background-color: rgba(8, 8, 211, 0.87);
+  color: white;
+  padding: 10px;
+  border-color: rgba(8, 8, 211, 0.87);
+}
+.spectra {
+  position: absolute;
+  bottom: -1800px;
+  left: 290px;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-left: -290px;
+  height: 100px;
+}
+.spectra1 {
+  margin-left: 130px;
+  margin-top: 1700px;
+  position: absolute;
+}
+.spectra2 {
+  margin-left: 300px;
+  margin-top: 1700px;
+  position: absolute;
+}
+.spectra3 {
+  margin-left: 480px;
+  margin-top: 1700px;
+  position: absolute;
+}
+.spectra4 {
+  margin-left: 670px;
+  margin-top: 1700px;
+  position: absolute;
+}
+.below {
+  color: white;
+  position: absolute;
+  bottom: -2004px;
+  background-color: black;
+  margin-left: -8px;
+}
+.last {
+  left: 20px;
+  position: absolute;
+  line-height: 1em;
+}
+.last p {
+  color: gray;
+}
+.list {
+  left: 360px;
+  color: grey;
+  position: absolute;
+  line-height: 2em;
+}
+.color {
+  margin-left: 1059px;
+  margin-bottom: -90px;
+  border-radius: 8px;
+}
+.insta {
+  margin-left: 1130px;
+  margin-bottom: 50px;
+}
+.ferris {
+  margin-left: 850px;
+  margin-bottom: -154px;
+  border-radius: 8px;
+}
+
+.balloon {
+  margin-left: 640px;
+  display: inline;
+  margin-bottom: -171px;
+  border-radius: 8px;
+}
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  position: absolute;
+  bottom: -150px;
+}
+
+form.example button {
+  position: absolute;
+  top: 197.7px;
+  left: 346px;
+  width: 20%;
+  padding: 5px;
+  background: white;
+  color: white;
+  font-size: 17px;
+  border-color: rgb(180, 177, 177);
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: gray;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+hr {
+  width: 70px;
+  border: 1px solid rgb(0, 125, 228);
+  margin-top: 150px;
+  position: absolute;
+  left: 570px;
 }
