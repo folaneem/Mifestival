@@ -1,0 +1,489 @@
+body {
+  background-color: rgb(255, 208, 0);
+}
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  width: 101%;
+  margin-left: -7px;
+  height: 70px;
+  margin-top: -10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.ticket {
+  background-color: #2410d8;
+  color: white;
+  float: right;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.topnav a.line-up {
+  background-color: rgb(9, 204, 172);
+  color: white;
+  float: right;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.festival {
+  position: absolute;
+  top: 25px;
+  left: 600px;
+  font-size: 30px;
+  font-family: source serif pro;
+}
+.pic1 {
+  position: absolute;
+  top: 125px;
+  left: 65px;
+  width: 90%;
+  height: 500px;
+  box-shadow: 0.001px 5px white;
+}
+.fun {
+  bottom: 480px;
+  position: absolute;
+  left: 570px;
+  font-size: 13px;
+  color: white;
+}
+.topnav a.time {
+  position: absolute;
+  bottom: 481px;
+  left: 748px;
+  background-color: white;
+  padding: 25px 40px 20px 40px;
+  color: rgb(9, 9, 148);
+}
+.topnav a.time1 {
+  position: absolute;
+  bottom: 481px;
+  left: 882.3px;
+  background-color: white;
+  padding: 25px 40px 20px 40px;
+  color: rgb(240, 86, 30);
+}
+.topnav a.time2 {
+  position: absolute;
+  bottom: 481px;
+  left: 1014px;
+  background-color: white;
+  padding: 25px 40px 20px 40px;
+  color: rgb(9, 204, 172);
+}
+.update {
+  position: absolute;
+  left: 480px;
+  top: 300px;
+  line-height: 10px;
+  color: white;
+}
+.update h1 {
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: 100;
+}
+.update p {
+  position: absolute;
+  left: 100px;
+}
+.second {
+  background-color: white;
+  color: palevioletred;
+  width: 91.5%;
+  margin-top: 600px;
+  height: 1040px;
+  margin-left: 55px;
+}
+.type {
+  color: yellowgreen;
+  bottom: -150px;
+  position: absolute;
+  text-align: center;
+  left: 400px;
+}
+hr {
+  width: 70px;
+  border: 1px solid seagreen;
+  position: absolute;
+  margin-top: -13px;
+  left: 154px;
+}
+.list {
+  display: inline;
+  position: absolute;
+  bottom: -170px;
+}
+.one {
+  left: 300px;
+  position: absolute;
+}
+.two {
+  left: 500px;
+  position: absolute;
+}
+.three {
+  left: 700px;
+  position: absolute;
+}
+.four {
+  position: absolute;
+  left: 900px;
+}
+.table1 {
+  bottom: -600px;
+  position: absolute;
+  left: 95px;
+  background-color: white;
+  padding-right: 220px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+  border: 1px solid grey;
+}
+.location {
+  position: absolute;
+  left: 20px;
+  margin-top: -5px;
+  width: 6%;
+  height: 25px;
+}
+.table1 p {
+  line-height: 1.5em;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.h4 {
+  margin-left: 250px;
+  color: violet;
+  border-color: 1px solid yellow;
+  position: absolute;
+  top: 150px;
+}
+.clock {
+  position: absolute;
+  left: -35px;
+  width: 10%;
+  height: 12px;
+  margin-top: 21px;
+}
+.share {
+  position: absolute;
+  width: 10%;
+  margin-top: -118px;
+  left: 118px;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 500px;
+}
+.book {
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+}
+.table2 {
+  bottom: -600px;
+  position: absolute;
+  left: 650px;
+  background-color: blue;
+  padding-right: 220px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  background-image: url(./images/background.jpg);
+  color: white;
+}
+.location {
+  position: absolute;
+  left: 20px;
+  margin-top: -5px;
+  width: 6%;
+  height: 25px;
+}
+.table2 p {
+  line-height: 1.5em;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.h4 {
+  margin-left: 250px;
+  color: white;
+  border-color: 1px solid yellow;
+  position: absolute;
+  top: 150px;
+}
+.clock {
+  position: absolute;
+  left: -35px;
+  width: 10%;
+  height: 12px;
+  margin-top: 21px;
+}
+.share {
+  position: absolute;
+  width: 10%;
+  margin-top: -118px;
+  left: 118px;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 500px;
+}
+.book {
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: white;
+  border-radius: 4px;
+}
+.table3 {
+  bottom: -970px;
+  position: absolute;
+  left: 95px;
+  background-color: white;
+  padding-right: 220px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+  color: black;
+  border: 1px solid grey;
+}
+.location {
+  position: absolute;
+  left: 20px;
+  margin-top: -5px;
+  width: 6%;
+  height: 25px;
+}
+.table3 p {
+  line-height: 1.5em;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.h4 {
+  margin-left: 250px;
+  color: black;
+  border-color: 1px solid yellow;
+  position: absolute;
+  top: 150px;
+}
+.clock {
+  position: absolute;
+  left: -35px;
+  width: 10%;
+  height: 12px;
+  margin-top: 21px;
+}
+.share {
+  position: absolute;
+  width: 10%;
+  margin-top: -118px;
+  left: 118px;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 500px;
+}
+.book {
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+}
+.table4 {
+  bottom: -970px;
+  position: absolute;
+  left: 640px;
+  background-color: white;
+  padding-right: 220px;
+  padding-left: 60px;
+  padding-bottom: 40px;
+  color: black;
+  border: 1px solid grey;
+}
+.location {
+  position: absolute;
+  left: 20px;
+  margin-top: -5px;
+  width: 6%;
+  height: 25px;
+}
+.table4 p {
+  line-height: 1.5em;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.h4 {
+  margin-left: 250px;
+  color: black;
+  border-color: 1px solid yellow;
+  position: absolute;
+  top: 150px;
+}
+.clock {
+  position: absolute;
+  left: -35px;
+  width: 10%;
+  height: 12px;
+  margin-top: 21px;
+}
+.share {
+  position: absolute;
+  width: 10%;
+  margin-top: -118px;
+  left: 118px;
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 500px;
+}
+.book {
+  padding: 10px 40px 10px 40px;
+  color: white;
+  background-color: blue;
+  border-radius: 4px;
+}
+.third {
+  background-color: white;
+  width: 91.5%;
+  margin-top: 20px;
+  height: 650px;
+  margin-left: 55px;
+}
+.third h1 {
+  position: absolute;
+  left: 380px;
+  bottom: -1200px;
+  font: 4em cursive;
+}
+hr {
+  bottom: -1210px;
+  left: 610px;
+}
+.img1 {
+  width: 25%;
+  height: 170px;
+  bottom: -1400px;
+  position: absolute;
+  left: 140px;
+}
+.dance {
+  position: absolute;
+  bottom: -1540px;
+  left: 140px;
+}
+.img2 {
+  width: 25%;
+  height: 170px;
+  position: absolute;
+  bottom: -1400px;
+  left: 480px;
+}
+.camp {
+  position: absolute;
+  bottom: -1540px;
+  left: 480px;
+}
+.img3 {
+  width: 25%;
+  height: 170px;
+  bottom: -1400px;
+  position: absolute;
+  left: 820px;
+}
+.food {
+  position: absolute;
+  bottom: -1540px;
+  left: 820px;
+}
+.read {
+  padding: 8px 20px 8px 20px;
+  border-radius: 4px;
+  color: white;
+  background-color: blue;
+}
+.terms {
+  position: absolute;
+  bottom: -1650px;
+  left: 450px;
+}
+.link {
+  text-decoration: none;
+}
+.spectra4 {
+  position: absolute;
+  left: 900px;
+  bottom: -1900px;
+}
+.spectra3 {
+  position: absolute;
+  left: 700px;
+  bottom: -1900px;
+}
+.spectra2 {
+  position: absolute;
+  left: 500px;
+  bottom: -1900px;
+}
+.spectra1 {
+  position: absolute;
+  left: 300px;
+  bottom: -1900px;
+}
+.spectra {
+  background-color: white;
+  padding: 100px;
+  margin-top: 50px;
+}
+.below {
+  color: white;
+  position: absolute;
+  bottom: -2102px;
+  background-color: black;
+  padding: -20px;
+}
+.last {
+  left: 20px;
+  position: absolute;
+  line-height: 1em;
+}
+.last p {
+  color: gray;
+}
+.list {
+  left: 360px;
+  color: grey;
+  position: absolute;
+  line-height: 2em;
+  bottom: 2px;
+}
+.color {
+  position: absolute;
+  left: 1077px;
+  border-radius: 8px;
+}
+.insta {
+  position: absolute;
+}
+.ferris {
+  border-radius: 8px;
+  position: absolute;
+  left: 880px;
+}
+
+.balloon {
+  border-radius: 8px;
+  position: absolute;
+}
