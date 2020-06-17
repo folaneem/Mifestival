@@ -68,7 +68,7 @@ body {
 .topnav a.time {
   position: absolute;
   bottom: 481px;
-  left: 748px;
+  left: 808px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 9, 148);
@@ -76,7 +76,7 @@ body {
 .topnav a.time1 {
   position: absolute;
   bottom: 481px;
-  left: 882.3px;
+  left: 944.3px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(240, 86, 30);
@@ -84,7 +84,7 @@ body {
 .topnav a.time2 {
   position: absolute;
   bottom: 481px;
-  left: 1014px;
+  left: 1077px;
   background-color: white;
   padding: 25px 40px 20px 40px;
   color: rgb(9, 204, 172);
@@ -107,14 +107,13 @@ body {
 }
 .second {
   background-color: white;
-  color: palevioletred;
+  color: black;
   width: 91.5%;
   margin-top: 600px;
   height: 1040px;
   margin-left: 55px;
 }
 .type {
-  color: yellowgreen;
   bottom: -150px;
   position: absolute;
   text-align: center;
@@ -216,6 +215,9 @@ hr {
   margin-top: -5px;
   width: 6%;
   height: 25px;
+}
+.table2 h4 {
+  color: white;
 }
 .table2 p {
   line-height: 1.5em;
@@ -422,37 +424,41 @@ hr {
 .link {
   text-decoration: none;
 }
-.spectra4 {
+.spectra {
   position: absolute;
-  left: 900px;
-  bottom: -1900px;
-}
-.spectra3 {
-  position: absolute;
-  left: 700px;
-  bottom: -1900px;
-}
-.spectra2 {
-  position: absolute;
-  left: 500px;
-  bottom: -1900px;
+  bottom: -1850px;
+  left: 290px;
+  background-color: whitesmoke;
+  width: 100%;
+  margin-left: -290px;
+  height: 100px;
 }
 .spectra1 {
+  margin-left: 130px;
+  margin-top: 10px;
   position: absolute;
-  left: 300px;
-  bottom: -1900px;
 }
-.spectra {
-  background-color: white;
-  padding: 100px;
+.spectra2 {
+  margin-left: 350px;
+  margin-top: 40px;
+  position: absolute;
+}
+.spectra3 {
+  margin-left: 640px;
+  margin-top: 40px;
+  position: absolute;
+}
+.spectra4 {
+  margin-left: 870px;
   margin-top: 50px;
+  position: absolute;
 }
 .below {
   color: white;
   position: absolute;
-  bottom: -2102px;
+  bottom: -2053px;
   background-color: black;
-  padding: -20px;
+  margin-left: -8px;
 }
 .last {
   left: 20px;
@@ -462,28 +468,30 @@ hr {
 .last p {
   color: gray;
 }
-.list {
+.home {
   left: 360px;
   color: grey;
   position: absolute;
   line-height: 2em;
-  bottom: 2px;
 }
 .color {
-  position: absolute;
-  left: 1077px;
+  margin-left: 1059px;
+  margin-bottom: -90px;
   border-radius: 8px;
 }
 .insta {
-  position: absolute;
+  margin-left: 1130px;
+  margin-bottom: 50px;
 }
 .ferris {
+  margin-left: 850px;
+  margin-bottom: -154px;
   border-radius: 8px;
-  position: absolute;
-  left: 880px;
 }
 
 .balloon {
+  margin-left: 640px;
+  display: inline;
+  margin-bottom: -171px;
   border-radius: 8px;
-  position: absolute;
 }
